@@ -2,7 +2,7 @@
 pragma solidity ^0.8.1;
 
 // Import the standard implementation of ERC721
-import "@openzeppeline/contracts/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
 // Contract 'BwItems' _IS_  an 'ERC721' contract
 contract BwItems is ERC721 {
