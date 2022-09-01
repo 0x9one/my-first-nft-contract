@@ -3,7 +3,7 @@
 const { ethers } = require("hardhat");
 async function main() {
     // Tell the secript which contrat we want to deploy
-    const contract = await ethers.getContractFactory("Bwitems");
+    const contract = await ethers.getContractFactory("BwItems");
 
     // Deploy it
     const deployedContract = await contract.deploy();
